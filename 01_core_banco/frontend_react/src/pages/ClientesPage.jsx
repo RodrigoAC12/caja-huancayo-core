@@ -1,3 +1,4 @@
+﻿import React from "react";
 import { useEffect, useState } from 'react'
 import api from '../services/api.js'
 
@@ -14,3 +15,4 @@ export default function ClientesPage() {
     </tbody></table></div>
   </section>
 }
+

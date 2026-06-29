@@ -1,3 +1,4 @@
+﻿import React from "react";
 import { Routes, Route, Navigate, NavLink, useNavigate } from 'react-router-dom'
 import { LayoutDashboard, Users, ClipboardList, BriefcaseBusiness, Landmark, ReceiptText, BarChart3, ShieldCheck, LogOut } from 'lucide-react'
 import { useAuth } from './context/AuthContext.jsx'
@@ -74,3 +75,4 @@ export default function App() {
     <Route path="*" element={<Navigate to="/" replace />} />
   </Routes>
 }
+

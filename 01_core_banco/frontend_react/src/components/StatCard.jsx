@@ -1,3 +1,4 @@
+﻿import React from "react";
 export default function StatCard({ title, value, hint }) {
   return <div className="stat-card">
     <span>{title}</span>
@@ -5,3 +6,4 @@ export default function StatCard({ title, value, hint }) {
     {hint && <small>{hint}</small>}
   </div>
 }
+

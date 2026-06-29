@@ -1,3 +1,4 @@
+﻿import React from "react";
 import { useEffect, useState } from 'react'
 import api from '../services/api.js'
 import StatCard from '../components/StatCard.jsx'
@@ -25,3 +26,4 @@ export default function DashboardPage() {
     </div>
   </section>
 }
+
